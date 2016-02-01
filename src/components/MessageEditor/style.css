@@ -1,0 +1,38 @@
+.message-editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  padding-right: 90px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.message-editor__input {
+  display: block;
+  width: 90%;
+  height: 15px;
+  margin: 17px 0 0 5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-editor__send {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.message-editor__send:hover {
+  background-color: #eee;
+}

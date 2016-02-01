@@ -1,0 +1,10 @@
+.dialog-item {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dialog-item:hover {
+  background-color: #eee;
+}
